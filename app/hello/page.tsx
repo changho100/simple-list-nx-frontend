@@ -32,6 +32,7 @@ export default function DemoPage() {
     <div>
       <h1>Hello 출력</h1>
       <pre>{JSON.stringify(hello, null, 2)}</pre>
+      <p>{hello?.message}</p>
     </div>
   );
 }
